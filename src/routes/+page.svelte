@@ -1,6 +1,7 @@
 <script>
 	import Counter from './Counter.svelte';
 	import welcome from '$lib/images/svelte-welcome.webp';
+	import PageTransitonCounter from './pageTransitonCounter.svelte';
 	import welcome_fallback from '$lib/images/svelte-welcome.png';
 </script>
 
@@ -24,6 +25,8 @@
 	<h2>
 		try editing <strong>src/routes/+page.svelte</strong>
 	</h2>
+
+	<PageTransitonCounter />
 
 	<Counter />
 </section>
